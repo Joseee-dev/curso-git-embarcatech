@@ -1,0 +1,21 @@
+mkdir curso-git-embarcatech
+
+cd curso-git-embarcatech
+
+git init
+
+git config user.name "Jose Francisco"
+git config user.email "franciscojosefrancisco341@gmail.com"
+
+git add primeiro-arquivo.txt
+
+git commit -m "Primeiro Commit Embarcatech"
+
+git remote add origin https://github.com/Joseee-dev/curso-git-embarcatech.git
+git push -u origin main
+
+git add comandos-utilizados.txt
+
+git commit -m "Comandos utilizados na tarefa"
+
+git push -u origin main
